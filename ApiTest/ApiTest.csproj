@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Enums.cs" />
+    <Compile Include="Models\SystemBatteryState.cs" />
+    <Compile Include="Models\SystemPowerInformation.cs" />
+    <Compile Include="PowerWrapper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
