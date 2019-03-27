@@ -22,8 +22,12 @@ namespace ApiTest
                 Console.WriteLine(result);
 
                 Console.WriteLine("some info about battery: Battery exists?");
-                var doesExist = wrapper.GetBatteryState();
-                Console.WriteLine(doesExist);
+                //var doesExist = wrapper.GetBatteryState();
+                //Console.WriteLine(doesExist);
+
+                Console.WriteLine("some other info");
+                var smth = wrapper.GetPowerInformation();
+                Console.WriteLine(smth);
             }
             finally
             {

@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ApiTest.Models
 {
+    [StructLayout(LayoutKind.Sequential)]
     internal struct SystemBatteryState
     {
         public byte AcOnLine;

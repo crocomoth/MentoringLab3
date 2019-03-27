@@ -11,6 +11,7 @@ namespace ApiTest.Models
         LastSleepTime = 15,
         LastWakeTime = 14,
         SystemBatteryState = 5,
-        SystemPowerInformation = 12
+        SystemPowerInformation = 12,
+        SystemReserveHiberFile = 10,
     }
 }
