@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTest", "ApiTest\ApiTest.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PowerWrapper", "PowerWrapper\PowerWrapper.vcxproj", "{4A7D3021-CC0D-40EF-B928-EBE526DB7180}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerWrapperCom", "PowerWrapperCom\PowerWrapperCom.csproj", "{4B502F8B-2786-4D74-8779-212F09AE7F55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,18 @@ Global
 		{4A7D3021-CC0D-40EF-B928-EBE526DB7180}.Release|x64.Build.0 = Release|x64
 		{4A7D3021-CC0D-40EF-B928-EBE526DB7180}.Release|x86.ActiveCfg = Release|Win32
 		{4A7D3021-CC0D-40EF-B928-EBE526DB7180}.Release|x86.Build.0 = Release|Win32
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Debug|x64.Build.0 = Debug|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Debug|x86.Build.0 = Debug|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Release|x64.ActiveCfg = Release|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Release|x64.Build.0 = Release|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Release|x86.ActiveCfg = Release|Any CPU
+		{4B502F8B-2786-4D74-8779-212F09AE7F55}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

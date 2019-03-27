@@ -21,12 +21,12 @@ namespace ApiTest
                 result = wrapper.GetLastWakeTime();
                 Console.WriteLine(result);
 
-                Console.WriteLine("some info about battery: Battery exists?");
-                //var doesExist = wrapper.GetBatteryState();
-                //Console.WriteLine(doesExist);
+                Console.WriteLine("some info about battery: Ac online?");
+                var doesExist = wrapper.GetBatteryState().AcOnLine;
+                Console.WriteLine(doesExist);
 
-                Console.WriteLine("some other info");
-                var smth = wrapper.GetPowerInformation();
+                Console.WriteLine("Idleness");
+                var smth = wrapper.GetPowerInformation().Idleness;
                 Console.WriteLine(smth);
             }
             finally
